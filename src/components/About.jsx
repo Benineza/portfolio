@@ -1,7 +1,7 @@
 import React from 'react';
 
 const About = () => {
-  const skills = ['HTML/CSS', 'JavaScript', 'React', 'Tailwind CSS', 'UI/UX Design', 'Responsive Design'];
+  const skills = ['HTML/CSS', 'JavaScript', 'React', 'Tailwind CSS', 'Frontend Development', 'Backend Development', 'Responsive Design'];
 
   const techStack = [
     { name: 'HTML', icon: 'fab fa-html5', color: '#E34F26' },
