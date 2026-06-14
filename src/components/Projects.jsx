@@ -1,4 +1,5 @@
 import React from 'react';
+import project3Image from '../assets/images/project-3.png';
 
 const Projects = () => {
   const projects = [
@@ -7,21 +8,24 @@ const Projects = () => {
       title: 'E-Commerce Website',
       description: 'A fully responsive e-commerce platform with shopping cart, payment integration, and user authentication.',
       liveDemo: '#',
-      sourceCode: '#'
+      sourceCode: '#',
+      image: null // No image for project 1
     },
     {
       id: 2,
       title: 'Task Management App',
       description: 'A productivity application for managing tasks with drag-and-drop functionality and team collaboration features.',
       liveDemo: '#',
-      sourceCode: '#'
+      sourceCode: '#',
+      image: null // No image for project 2
     },
     {
       id: 3,
-      title: 'DSH Innovations',
-      description: 'A fully responsive sports news platform featuring article live scores/news updates and SEO-friendly responsive design.',
-      liveDemo: '#',
-      sourceCode: '#'
+      title: 'CMFI Rwanda - Church Website',
+      description: 'A modern full-stack church website with React frontend, Spring Boot backend, PostgreSQL database, email integration, and dark mode. Features live social media feeds from Twitter/X and Instagram.',
+      liveDemo: 'https://cmfirwanda.vercel.app/',
+      sourceCode: 'https://github.com/Benineza/cmfi-website',
+      image: project3Image
     }
   ];
 
@@ -31,9 +35,19 @@ const Projects = () => {
         <h2>My Projects</h2>
       </div>
       <div className="projects-grid">
-        {projects.map((project, index) => (
+        {projects.map((project) => (
           <div key={project.id} className="project-card">
-            <div className="project-img">Project {project.id}</div>
+            <div className="project-img">
+              {project.image ? (
+                <img 
+                  src={project.image} 
+                  alt={project.title}
+                  className="project-image"
+                />
+              ) : (
+                `Project ${project.id}`
+              )}
+            </div>
             <div className="project-info">
               <h3>{project.title}</h3>
               <p>{project.description}</p>
