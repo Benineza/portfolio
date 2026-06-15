@@ -51,6 +51,8 @@ A modern, responsive portfolio website showcasing my skills, projects, and profe
 | **VS Code** | IDE |
 | **npm** | Package Management |
 
+## 📁 Project Structure
+
 ```text
 portfolio/
 ├── src/
