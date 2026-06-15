@@ -12,7 +12,7 @@ const Hero = () => {
     <section className="hero" id="home">
       <div className="hero-content">
         <h1>Hi, I'm <span>Moise Benineza</span><br />Creative Developer</h1>
-        <p>I create beautiful and functional websites and applications. With a passion for clean code and innovative design, I bring ideas to life in the digital space.</p>
+        <p>Software Engineering student with skills in web development, IT support, HTML, CSS, JavaScript, and React. Passionate about building efficient, user-friendly digital solutions and expanding technical expertise through hands-on projects.</p>
         <button onClick={scrollToProjects} className="btn">View My Work</button>
       </div>
     </section>

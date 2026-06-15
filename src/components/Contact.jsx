@@ -1,31 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
-  });
-
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.id]: e.target.value
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    alert('Thank you for your message! I will get back to you soon.');
-    setFormData({
-      name: '',
-      email: '',
-      subject: '',
-      message: ''
-    });
-  };
-
   return (
     <section id="contact">
       <div className="section-title">
@@ -60,53 +35,6 @@ const Contact = () => {
             </div>
           </div>
         </div>
-
-        <form className="contact-form" onSubmit={handleSubmit}>
-          <div className="form-group">
-            <label htmlFor="name">Your Name</label>
-            <input 
-              type="text" 
-              id="name" 
-              value={formData.name}
-              onChange={handleChange}
-              required 
-            />
-          </div>
-
-          <div className="form-group">
-            <label htmlFor="email">Your Email</label>
-            <input 
-              type="email" 
-              id="email" 
-              value={formData.email}
-              onChange={handleChange}
-              required 
-            />
-          </div>
-
-          <div className="form-group">
-            <label htmlFor="subject">Subject</label>
-            <input 
-              type="text" 
-              id="subject" 
-              value={formData.subject}
-              onChange={handleChange}
-              required 
-            />
-          </div>
-
-          <div className="form-group">
-            <label htmlFor="message">Your Message</label>
-            <textarea 
-              id="message" 
-              value={formData.message}
-              onChange={handleChange}
-              required
-            ></textarea>
-          </div>
-
-          <button type="submit" className="btn">Send Message</button>
-        </form>
       </div>
     </section>
   );

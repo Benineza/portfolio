@@ -1,4 +1,5 @@
 import React from 'react';
+import project2Image from '../assets/images/project-2.png';
 import project3Image from '../assets/images/project-3.png';
 
 const Projects = () => {
@@ -13,11 +14,11 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'A productivity application for managing tasks with drag-and-drop functionality and team collaboration features.',
-      liveDemo: '#',
-      sourceCode: '#',
-      image: null // No image for project 2
+      title: 'My Portfolio',
+      description: 'A modern, responsive portfolio website built with React, featuring dark/light mode, certifications showcase, tech stack display, and seamless navigation. Demonstrates component-based architecture and responsive design principles.',
+      liveDemo: 'https://benineza.vercel.app/',
+      sourceCode: 'https://github.com/Benineza/portfolio',
+      image: project2Image
     },
     {
       id: 3,
