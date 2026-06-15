@@ -1,16 +1,54 @@
-# React + Vite
+# 💼 Moise Benineza - Professional Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-5.0.8-646CFF?logo=vite)](https://vitejs.dev/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://benineza.vercel.app/)
 
-Currently, two official plugins are available:
+## 🌟 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Visit my portfolio:** [benineza.vercel.app](https://benineza.vercel.app/)
 
-## React Compiler
+## 📋 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A modern, responsive portfolio website showcasing my skills, projects, and professional certifications as a Creative Developer. Built with React and Vite, featuring a sleek dark/light mode toggle, comprehensive tech stack display, and fully responsive design.
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎨 User Experience
+- **Dark/Light Mode** - Seamless theme switching with localStorage persistence
+- **Fully Responsive** - Optimized for all devices from mobile to desktop
+- **Smooth Navigation** - Fixed header with smooth scroll to sections
+- **Mobile-First Design** - Hamburger menu for mobile devices
+
+### 📱 Interactive Components
+- **Dynamic Tech Stack** - Visual display of technologies with brand icons
+- **Certifications Showcase** - Grid layout with credential verification links
+- **Project Gallery** - Cards with images, descriptions, and live demo links
+- **WhatsApp Integration** - Floating button for instant contact
+
+### 🛠 Technical Highlights
+- **Component-Based Architecture** - Reusable React components
+- **CSS Variables** - Theming system for easy customization
+- **Font Awesome Icons** - Professional icon integration
+- **Responsive Grid Layouts** - Modern CSS Grid and Flexbox
+
+## 🚀 Tech Stack
+
+### Frontend
+| Technology | Purpose |
+|------------|---------|
+| **React 18** | UI Framework |
+| **Vite** | Build Tool & Dev Server |
+| **CSS3** | Styling with CSS Variables |
+| **Font Awesome 6** | Icons & Social Links |
+
+### Development Tools
+| Tool | Purpose |
+|------|---------|
+| **Git** | Version Control |
+| **GitHub** | Repository Hosting |
+| **VS Code** | IDE |
+| **npm** | Package Management |
+
+## 📁 Project Structure
