@@ -52,3 +52,43 @@ A modern, responsive portfolio website showcasing my skills, projects, and profe
 | **npm** | Package Management |
 
 ## 📁 Project Structure
+
+
+## 🎯 Key Sections
+
+### 1. **Hero Section**
+- Professional introduction
+- Call-to-action button for projects
+
+### 2. **About Me**
+- Professional journey summary
+- Interactive tech stack grid with 11+ technologies
+- Skill tags
+
+### 3. **Projects**
+- **E-Commerce Website** - Full-featured platform
+- **My Portfolio** - This React application
+- **CMFI Rwanda** - Full-stack church website
+
+### 4. **Certifications**
+- Cisco Certified Network Associate (CCNA)
+- Cisco Certified Specialist - Enterprise Core
+- Introduction To Network Operations (Internet Society)
+- International Computer Driving Licence (ICDL)
+
+### 5. **Contact**
+- Email and phone information
+- Floating WhatsApp button
+
+## 🛠 Installation & Setup
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm (v8 or higher)
+
+### Local Development
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Benineza/portfolio.git
+   cd portfolio
