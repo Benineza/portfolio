@@ -51,6 +51,30 @@ A modern, responsive portfolio website showcasing my skills, projects, and profe
 | **VS Code** | IDE |
 | **npm** | Package Management |
 
+```text
+portfolio/
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx           # Navigation & theme toggle
+│   │   ├── Hero.jsx             # Introduction section
+│   │   ├── About.jsx            # Bio & tech stack
+│   │   ├── Projects.jsx         # Project showcase
+│   │   ├── Certifications.jsx   # Credentials display
+│   │   ├── Contact.jsx          # Contact information
+│   │   ├── Footer.jsx           # Social links & copyright
+│   │   └── WhatsAppButton.jsx   # Floating contact button
+│   ├── styles/
+│   │   └── globals.css          # Global styles & themes
+│   ├── assets/
+│   │   └── images/              # Project screenshots
+│   ├── App.jsx                  # Main component
+│   └── main.jsx                 # Entry point
+├── public/                      # Static assets
+├── index.html                   # HTML template
+├── package.json                 # Dependencies
+└── README.md                    # Documentation
+```
+
 
 ## 🎯 Key Sections
 
@@ -78,40 +102,3 @@ A modern, responsive portfolio website showcasing my skills, projects, and profe
 - Email and phone information
 - Floating WhatsApp button
 
-## 🛠 Installation & Setup
-
-### Prerequisites
-- Node.js (v16 or higher)
-- npm (v8 or higher)
-
-### Local Development
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Benineza/portfolio.git
-   cd portfolio
-
-   ## 📁 Project Structure
-
-```text
-portfolio/
-├── src/
-│   ├── components/
-│   │   ├── Header.jsx           # Navigation & theme toggle
-│   │   ├── Hero.jsx             # Introduction section
-│   │   ├── About.jsx            # Bio & tech stack
-│   │   ├── Projects.jsx         # Project showcase
-│   │   ├── Certifications.jsx   # Credentials display
-│   │   ├── Contact.jsx          # Contact information
-│   │   ├── Footer.jsx           # Social links & copyright
-│   │   └── WhatsAppButton.jsx   # Floating contact button
-│   ├── styles/
-│   │   └── globals.css          # Global styles & themes
-│   ├── assets/
-│   │   └── images/              # Project screenshots
-│   ├── App.jsx                  # Main component
-│   └── main.jsx                 # Entry point
-├── public/                      # Static assets
-├── index.html                   # HTML template
-├── package.json                 # Dependencies
-└── README.md                    # Documentation
