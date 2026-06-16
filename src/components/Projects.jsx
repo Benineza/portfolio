@@ -10,14 +10,14 @@ const Projects = () => {
       description: 'A fully responsive e-commerce platform with shopping cart, payment integration, and user authentication.',
       liveDemo: '#',
       sourceCode: '#',
-      image: null // No image for project 1
+      image: null
     },
     {
       id: 2,
-      title: 'My Portfolio',
+      title: 'Personal Portfolio',
       description: 'A modern, responsive portfolio website built with React, featuring dark/light mode, certifications showcase, tech stack display, and seamless navigation. Demonstrates component-based architecture and responsive design principles.',
       liveDemo: 'https://benineza.vercel.app/',
-      sourceCode: 'https://github.com/Benineza/portfolio',
+      sourceCode: 'https://github.com/Benineza/benineza-portfolio',
       image: project2Image
     },
     {

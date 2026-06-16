@@ -17,7 +17,7 @@ const Footer = () => {
           <i className="fab fa-whatsapp"></i>
         </a>
       </div>
-      <p className="copyright">© 2025 Moise Benineza All Rights Reserved.</p>
+      <p className="copyright">© 2026 Moise Benineza All Rights Reserved.</p>
     </footer>
   );
 };
