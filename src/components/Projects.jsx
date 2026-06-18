@@ -1,4 +1,5 @@
 import React from 'react';
+import project1Image from '../assets/images/project-1.png';
 import project2Image from '../assets/images/project-2.png';
 import project3Image from '../assets/images/project-3.png';
 
@@ -6,15 +7,15 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Website',
-      description: 'A fully responsive e-commerce platform with shopping cart, payment integration, and user authentication.',
-      liveDemo: '#',
-      sourceCode: '#',
-      image: null
+      title: 'Digital Solutions Agency',
+      description: 'A professional website for a digital solutions company offering web development, social media branding, and management services. Features service showcases, client portfolio, and contact integration.',
+      liveDemo: 'https://nezaweb.vercel.app/', 
+      sourceCode: 'https://github.com/Benineza/nezaweb',
+      image: project1Image
     },
     {
       id: 2,
-      title: 'Personal Portfolio',
+      title: 'My Portfolio',
       description: 'A modern, responsive portfolio website built with React, featuring dark/light mode, certifications showcase, tech stack display, and seamless navigation. Demonstrates component-based architecture and responsive design principles.',
       liveDemo: 'https://benineza.vercel.app/',
       sourceCode: 'https://github.com/Benineza/benineza-portfolio',
